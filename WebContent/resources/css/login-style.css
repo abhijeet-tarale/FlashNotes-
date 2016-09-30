@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: black;
+	/* background-image: url("images/flash-login.jpg"); */
+}
+input,label,button{
+	background-color:transparent !important;
+	font-weight: inherit;
+	color: grey !important;
+	
+}
+input[type="checkbox"] {
+  transform:scale(1.5, 1.5);
+}
+
+#rem_me_label, #rem_me_span{
+	background-color:transparent !important;
+	border-color: black !important;
+}
+#wtfn{
+	color:grey;
+	font-size: 300%;
+}
+
+button{
+	color: white;
+}
+button:hover{
+	background-color: #CCC !important;
+	color:black !important;
+}
+span{
+	color:black !important;
+}
+/* input[type=text]:valid , input[type=password]:valid {
+    color: green !important;   
+} 
+input[type=text]:invalid , input[type=password]:invalid {
+    color: red !important;
+} */
